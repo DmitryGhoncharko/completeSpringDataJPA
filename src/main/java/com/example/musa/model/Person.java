@@ -19,8 +19,12 @@ public class Person {
     private String surName;
     @Column
     private String name;
+
     @Column
-    private int yearOfBorn;
+    private String lastName;
+
     @Column
-    private int monthOfBorn;
+    private int age;
+    @Column
+    private int size;
 }
